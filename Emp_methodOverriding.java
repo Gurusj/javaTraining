@@ -14,7 +14,7 @@ class Employee{
 
     //Overriding without parameters
     public void displayPhone(){
-        System.out.println("\nPhone: "+phone);
+        System.out.println("ID: "+id+"\tPhone: "+phone);
     }
 
     /*public void displayPhone(String phone){
@@ -31,8 +31,9 @@ class HR extends Employee{
         this.salary = sal;
     }
     //Overriding without parameters
+    //@Override
     public void displayPhone(){
-        System.out.println("\nPhone: "+phone);
+        System.out.println("Name: "+name+"\tPhone: "+phone);
     }
 }
 
@@ -40,10 +41,8 @@ class Emp_methodOverriding{
 
     public static void main(String args[]){
 
-        Employee obj1 = new Employee(1,"Abhishek","Savanur", "9980890662");
         HR obj2 = new HR(1,"Abhishek","Savanur", "8660554576", 25000);
         
-        obj1.displayPhone();
         //Without parameters 
         obj2.displayPhone();
 
