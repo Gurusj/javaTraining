@@ -40,7 +40,7 @@ class Emp_methodOverriding{
 
     public static void main(String args[]){
 
-        EMP obj1 = new EMP(1,"Abhishek","Savanur", "9980890662");
+        Employee obj1 = new Employee(1,"Abhishek","Savanur", "9980890662");
         HR obj2 = new HR(1,"Abhishek","Savanur", "8660554576", 25000);
         
         //Without parameters 
