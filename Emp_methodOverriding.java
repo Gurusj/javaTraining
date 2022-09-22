@@ -43,6 +43,7 @@ class Emp_methodOverriding{
         Employee obj1 = new Employee(1,"Abhishek","Savanur", "9980890662");
         HR obj2 = new HR(1,"Abhishek","Savanur", "8660554576", 25000);
         
+        obj1.displayPhone();
         //Without parameters 
         obj2.displayPhone();
 
