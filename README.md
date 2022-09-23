@@ -5,3 +5,4 @@
 4. Emp_continueStatement class is to demonstrate continue statement using foreach loop.
 5. Emp_controlStatements class is to demonstrate if-else decision making statements.
 6. Emp_switchStatement class is to demonstrate switch condition statement.
+7. Substring class is to demonstrate extracting substring from a string (Extracting date of joining from the given string).
