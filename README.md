@@ -11,7 +11,7 @@
   > We can not modify the member of immutable class after creation of object.
 10. Regularexpression class is to validate the employee details like email, employee id, phone number and address.
   > The following restrictions are imposed in the email address local part:
-    a> It allows numeric values from 0 to 9.
+    * It allows numeric values from 0 to 9.
     b> Both uppercase and lowercase letters from a to z are allowed.
     c> Allowed are underscore “_”, hyphen “-“, and dot “.”
     d> Dot isn't allowed at the start and end of the local part.
