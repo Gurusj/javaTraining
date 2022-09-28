@@ -58,8 +58,9 @@ public class Regularexpression
                 break;
             case 4:
                 System.out.println("Enter employee address for validation:");
-                String Emp_add = sc.next();
-                String reg4 = "^[a-zA-Z0-9\\s\\,\\''\\-]*$";
+                Scanner sc1 = new Scanner(System.in);
+                String Emp_add = sc1.nextLine();
+                String reg4 = "^[\\a-zA-Z,0-9 \\s]+[1-9][0-9]{5}+$";
                 boolean res3 = Emp_add.matches(reg4);
                 if(res3){
                     System.out.println("Entered employee address is valid");
