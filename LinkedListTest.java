@@ -11,13 +11,13 @@ class Node{
 
 class MyLL{
     Node head;
-    Node add(MyLL list, int data){
+    Node add(int data){
         Node newNode = new Node(data);
-        if(list.head == null){
-            list.head = newNode;
+        if(head == null){
+            head = newNode;
         }
         else{
-            Node lastNode = list.head;
+            Node lastNode = head;
             while (lastNode.nxt != null){
                 lastNode = lastNode.nxt;
             }
@@ -26,23 +26,24 @@ class MyLL{
         return newNode;
     }
 
-    void displayList(MyLL list){
-        Node presentNode = list.head;
-        while (presentNode != null){
-            System.out.print(presentNode.data+"\t");
+    void displayList(){
+        Node presentNode = head;
+        while (presentNode.nxt != null){
+            System.out.print(presentNode.data+"->");
             presentNode = presentNode.nxt;
         }
+        System.out.println(presentNode.data);
     }
 }
 public class LinkedListTest {
     public static void main(String args[]){
         MyLL obj1 = new MyLL();
 
-        obj1.add(obj1,10);
-        obj1.add(obj1,20);
-        obj1.add(obj1,30);
-        obj1.add(obj1,40);
-        obj1.add(obj1,50);
-        obj1.displayList(obj1);
+        obj1.add(10);
+        obj1.add(20);
+        obj1.add(30);
+        obj1.add(40);
+        obj1.add(50);
+        obj1.displayList();
     }
 }
