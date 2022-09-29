@@ -36,6 +36,21 @@
      2. Class must call the super class constructor.</br>
  15. LinkedListDemo class is demonstrate creation of Linked List and displaying the traversing through the list to display data of the last node.
  16. LinkedListTest class is to demonstrate user defined Linked List class which adds and creates links one node to another and displays the linked list.
+ 17. TestList class is to demonstrate the properties of List by adding Integer values.
+   > Lists allow multiple null values and duplicate values.<br>
+   > Follows insertion order.<br>
+ 18. TestSet class is to demonstrate the properties of HashSet.
+   > Doesn't allow duplicate values.<br>
+   > Allows at most one null value.<br>
+   > Doesn't follow insertion order.<br>
+ 19. TestLinkedHashSet class is to demonstrate the properties of LinkedHashSet.
+   > Doesn't allow duplicate values.<br>
+   > Allows at most one null value.<br>
+   > It follows insertion order.<br>
+  20. TestTreeSet class is to demonstrate the properties of TreeSet.
+   > Provides sorted values of list.<br>
+   > Doesn't allow null value.<br>
+   
    
 
 
