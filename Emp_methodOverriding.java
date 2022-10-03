@@ -33,6 +33,8 @@ class HR extends Employee{
     //Overriding without parameters
     //@Override
     public void displayPhone(){
+
+        super.displayPhone();
         System.out.println("Name: "+name+"\tPhone: "+phone);
     }
 }
