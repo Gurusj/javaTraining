@@ -47,10 +47,19 @@
    > Doesn't allow duplicate values.<br>
    > Allows at most one null value.<br>
    > It follows insertion order.<br>
-  20. TestTreeSet class is to demonstrate the properties of TreeSet.
+ 20. TestTreeSet class is to demonstrate the properties of TreeSet.
    > Provides sorted values of list.<br>
-   > Doesn't allow null value.<br>
-   
+   > Doesn't allow null value.<br> 
+ 21. HashMapDemo class is to demonstrate the properties of HashMap.
+   > Not follows insertion order.<br>
+   > Doesn't allow duplicate entries.<br>
+ 22. EmployeeHashMapWithDuplicate class is to demonstrate the hashmap class which allows to store duplicate entries.
+ 23. EmployeeHashMapWithoutDuplicate class is to demonstrate the hashmap class which ignores the duplicate values and overwrites the earlier entry with new      entry.
+ 24. LinkedHashMapTest class is to demonstrate the properties of LinkedHashMap class.
+   > Doesn't allow duplicate entries.<br>
+   > Follows insertion order.<br>
+ 25. TreeMapTest class is to demonstrate the properties of TreeMap class
+   > Used to store the entries in sorted order.
    
 
 
