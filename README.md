@@ -63,7 +63,10 @@
    > Doesn't allow duplicate entries.<br>
    > Follows insertion order.<br>
  25. TreeMapTest class is to demonstrate the properties of TreeMap class
-   > Used to store the entries in sorted order.
+   > Used to store the entries in sorted order.<br>
+ 26. ThreadDemo class is to create a threads by extending Thread class and printing each thread names while particular run method is called.
+ 27. ThreadDemo2 class is to print 1 to 10 numbers by creating two threads and calling each thread one after the other.
+ 28. CountIncrementDecrementUsingThread class is to demonstrate the way of execution of two threads using a count variable. 
    
 
 
