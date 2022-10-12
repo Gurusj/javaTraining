@@ -9,7 +9,7 @@ public class OddEven {
                  }
                  Thread.sleep(500);
                  System.out.println(i + ": " + Thread.currentThread().getName());
-                 i++;;
+                 i++;
                  notify();
              }
          }
