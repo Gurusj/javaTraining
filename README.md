@@ -77,4 +77,5 @@
  36. WithoutSynchronized class is to run multiple threads in asynchronized way in which multiple threads shares a common resource called count.   
  36. JavaSynchronization class is to demonstrate synchronization of multiple thread using synchronized keyword.
  37. JavaSynchronizationBlock class is to demonstrate synchronization block.
+ 38. OddEven class demonstrates thread wait() and notify() methods while printing odd and even numbers in the range of 1 to 10.
 
