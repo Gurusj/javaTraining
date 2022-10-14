@@ -78,4 +78,5 @@
  36. JavaSynchronization class is to demonstrate synchronization of multiple thread using synchronized keyword.
  37. JavaSynchronizationBlock class is to demonstrate synchronization block.
  38. OddEven class demonstrates thread wait() and notify() methods while printing odd and even numbers in the range of 1 to 10.
+ 39. ProjectXL folder contains the files needed for the excel project whch does the task of reading data from two excel files using two threads and maps the data to ConcurrentHashMap object and displays the contents of map object.
 
