@@ -28,7 +28,7 @@
      a) The country code prefix starts with ‘+’ and has 1-3 digits.</br>
      b) Most of the countries have the last 4 digits after a hyphen(-).</br>
  11. SimpleException class is to demonstrate the simple try and catch blocks and to display the exception handled by the catch block.
- 12. ExceptionTest class is to demonstrate thenested try-catch blocks.
+ 12. ExceptionTest class is to demonstrate the nested try-catch blocks.
  13. FinallyException class is to demonstrate finally block along with try and catch blocks to execute the mandatory statements or function.
  14. ThrowExceptionTest class is to demonstrate user defined exceptions using throw keyword.</br>
    > Constraints to follow while defining user defined exceptions/customized exception:</br>
@@ -78,4 +78,5 @@
  36. JavaSynchronization class is to demonstrate synchronization of multiple thread using synchronized keyword.
  37. JavaSynchronizationBlock class is to demonstrate synchronization block.
  38. OddEven class demonstrates thread wait() and notify() methods while printing odd and even numbers in the range of 1 to 10.
+ 39. ProjectXL folder contains the files needed for the excel project whch does the task of reading data from two excel files using two threads and maps the data to ConcurrentHashMap object and displays the contents of map object.
 
