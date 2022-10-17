@@ -28,7 +28,7 @@
      a) The country code prefix starts with ‘+’ and has 1-3 digits.</br>
      b) Most of the countries have the last 4 digits after a hyphen(-).</br>
  11. SimpleException class is to demonstrate the simple try and catch blocks and to display the exception handled by the catch block.
- 12. ExceptionTest class is to demonstrate thenested try-catch blocks.
+ 12. ExceptionTest class is to demonstrate the nested try-catch blocks.
  13. FinallyException class is to demonstrate finally block along with try and catch blocks to execute the mandatory statements or function.
  14. ThrowExceptionTest class is to demonstrate user defined exceptions using throw keyword.</br>
    > Constraints to follow while defining user defined exceptions/customized exception:</br>
